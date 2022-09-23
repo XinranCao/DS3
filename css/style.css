@@ -1,0 +1,39 @@
+img {
+    margin: 16px;
+}
+
+img:hover {
+    cursor:pointer;
+}
+
+nav ul {
+    padding: 8px;
+}
+
+nav li {
+    display:inline-block;
+    margin: 0 16px;
+    width: 70px;
+    text-align: center;
+}
+
+nav a {
+    color: #5bae23;
+}
+
+nav a:hover {
+    color: #1a6840;
+}
+
+.skip-to-content-link {
+    padding: 8px;
+    position: fixed;
+    background-color: #e2e2e2;
+    right: 8px;
+    top: 50%;
+    border-radius: 5px;
+}
+
+.active {
+    font-weight: bold;
+}
